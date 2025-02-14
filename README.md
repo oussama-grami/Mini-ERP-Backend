@@ -30,5 +30,5 @@ SQLite (ou autre SGBD)
 ### -2-Configurer la base de données  
 Modifier la chaîne de connexion dans appsettings.json.  
 Appliquer les migrations si nécessaire   
-    `dotnet ef database update `
+    ```dotnet ef database update ```
     
