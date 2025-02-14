@@ -1,0 +1,186 @@
+[
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "AjouterProduit",
+    "RelativePath": "api/Stock/ajouterProduit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GestionStock.DTO.AjouterProduitRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionStock.DTO.AjouterProduitResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "AjouterStock",
+    "RelativePath": "api/Stock/ajouterQuantiteStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GestionStock.DTO.ArticleExpedierMarchandisesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "AnnulerCommande",
+    "RelativePath": "api/Stock/annulerCommande/{commandeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commandeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "ConfirmerCommande",
+    "RelativePath": "api/Stock/confirmerCommande/{commandeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commandeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "ConsulterProduit",
+    "RelativePath": "api/Stock/consulterProduit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionStock.DTO.ArticleStockDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "ConsulterStock",
+    "RelativePath": "api/Stock/consulterStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestionStock.DTO.ArticleStockDTO, Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "ExpedierMarchandises",
+    "RelativePath": "api/Stock/expedierMarchandises",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "ModifierProduit",
+    "RelativePath": "api/Stock/modifierProduit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GestionStock.DTO.ProduitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "ReserverCommande",
+    "RelativePath": "api/Stock/reserverCommande",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GestionStock.DTO.ReserverCommandeRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionStock.Controllers.StockController",
+    "Method": "SupprimerProduit",
+    "RelativePath": "api/Stock/supprimerProduit",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produitId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

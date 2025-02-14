@@ -1,0 +1,323 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionclients\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|solutionrelative:gestionclients\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionclients\\services\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|solutionrelative:gestionclients\\services\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\appgateway\\controllers\\gestionclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|solutionrelative:appgateway\\controllers\\gestionclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\appgateway\\migrations\\20250206204926_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|solutionrelative:appgateway\\migrations\\20250206204926_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\appgateway\\migrations\\20250201152942_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|solutionrelative:appgateway\\migrations\\20250201152942_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166FD6E2-FFF9-4B57-BE59-133EF65D90A2}|Persistence\\Persistence.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\persistence\\dto\\gestionclients\\clientin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166FD6E2-FFF9-4B57-BE59-133EF65D90A2}|Persistence\\Persistence.csproj|solutionrelative:persistence\\dto\\gestionclients\\clientin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166FD6E2-FFF9-4B57-BE59-133EF65D90A2}|Persistence\\Persistence.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\persistence\\entities\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166FD6E2-FFF9-4B57-BE59-133EF65D90A2}|Persistence\\Persistence.csproj|solutionrelative:persistence\\entities\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionclients\\gestionclients.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|solutionrelative:gestionclients\\gestionclients.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\appgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|solutionrelative:appgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionclients\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|solutionrelative:gestionclients\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionclients\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|solutionrelative:gestionclients\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\appgateway\\controllers\\gestionstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|solutionrelative:appgateway\\controllers\\gestionstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionclients\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|solutionrelative:gestionclients\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionclients\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|solutionrelative:gestionclients\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionclients\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86FB47B2-011E-43E5-8BE2-8C806124772E}|GestionClients\\GestionClients.csproj|solutionrelative:gestionclients\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\appgateway\\controllers\\gestioncommandes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CB79A7-A1CA-448D-BDF6-257BE03C6110}|AppGateway\\AppGateway.csproj|solutionrelative:appgateway\\controllers\\gestioncommandes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CABDC9F-1088-48A9-AB5F-D512D9090084}|GestionStock\\GestionStock.csproj|c:\\users\\oussa\\onedrive\\bureau\\tools\\dotneterp\\gestionstock\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CABDC9F-1088-48A9-AB5F-D512D9090084}|GestionStock\\GestionStock.csproj|solutionrelative:gestionstock\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionClientsLayer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppGateway\\Controllers\\GestionClientsLayer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\ERP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Services\\IClientService.cs",
+              "RelativeDocumentMoniker": "GestionClients\\Services\\IClientService.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Services\\IClientService.cs",
+              "RelativeToolTip": "GestionClients\\Services\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T17:54:01.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250206204926_client.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Migrations\\20250206204926_client.cs",
+              "RelativeDocumentMoniker": "AppGateway\\Migrations\\20250206204926_client.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Migrations\\20250206204926_client.cs",
+              "RelativeToolTip": "AppGateway\\Migrations\\20250206204926_client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:49:54.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250201152942_mig.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Migrations\\20250201152942_mig.cs",
+              "RelativeDocumentMoniker": "AppGateway\\Migrations\\20250201152942_mig.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Migrations\\20250201152942_mig.cs",
+              "RelativeToolTip": "AppGateway\\Migrations\\20250201152942_mig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:40:46.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\Persistence\\Entities\\Client\\Client.cs",
+              "RelativeDocumentMoniker": "Persistence\\Entities\\Client\\Client.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\Persistence\\Entities\\Client\\Client.cs",
+              "RelativeToolTip": "Persistence\\Entities\\Client\\Client.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:37:24.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientIn.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\Persistence\\DTO\\GestionClients\\ClientIn.cs",
+              "RelativeDocumentMoniker": "Persistence\\DTO\\GestionClients\\ClientIn.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\Persistence\\DTO\\GestionClients\\ClientIn.cs",
+              "RelativeToolTip": "Persistence\\DTO\\GestionClients\\ClientIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:37:12.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionClients.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionClients.cs",
+              "RelativeDocumentMoniker": "AppGateway\\Controllers\\GestionClients.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionClients.cs",
+              "RelativeToolTip": "AppGateway\\Controllers\\GestionClients.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAwwJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:55:26.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "GestionClients\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Services\\ClientService.cs",
+              "RelativeToolTip": "GestionClients\\Services\\ClientService.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAADwv7QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T14:14:43.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GestionClientsLayer2.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionClientsLayer2.cs",
+              "RelativeDocumentMoniker": "AppGateway\\Controllers\\GestionClientsLayer2.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionClientsLayer2.cs",
+              "RelativeToolTip": "AppGateway\\Controllers\\GestionClientsLayer2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T06:42:20.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GestionStock.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionStock.cs",
+              "RelativeDocumentMoniker": "AppGateway\\Controllers\\GestionStock.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionStock.cs",
+              "RelativeToolTip": "AppGateway\\Controllers\\GestionStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T06:30:55.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GestionClients\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GestionClients\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-28T07:49:45.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GestionClients\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\appsettings.Development.json",
+              "RelativeToolTip": "GestionClients\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-28T07:49:06.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GestionClients.http",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\GestionClients.http",
+              "RelativeDocumentMoniker": "GestionClients\\GestionClients.http",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\GestionClients.http",
+              "RelativeToolTip": "GestionClients\\GestionClients.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-28T07:20:58.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\ERP\\Program.cs",
+              "RelativeDocumentMoniker": "ERP\\Program.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\ERP\\Program.cs",
+              "RelativeToolTip": "ERP\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T07:11:29.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Program.cs",
+              "RelativeDocumentMoniker": "AppGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Program.cs",
+              "RelativeToolTip": "AppGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T07:07:41.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Program.cs",
+              "RelativeDocumentMoniker": "GestionClients\\Program.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Program.cs",
+              "RelativeToolTip": "GestionClients\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T07:49:24.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionClients\\appsettings.json",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\appsettings.json",
+              "RelativeToolTip": "GestionClients\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-28T07:49:00.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "GestionClients\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionClients\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "GestionClients\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAIBQwFQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T06:33:10.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionStock\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "GestionStock\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\GestionStock\\Controllers\\StockController.cs",
+              "RelativeToolTip": "GestionStock\\Controllers\\StockController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T07:35:06.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GestionCommandes.cs",
+              "DocumentMoniker": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionCommandes.cs",
+              "RelativeDocumentMoniker": "AppGateway\\Controllers\\GestionCommandes.cs",
+              "ToolTip": "C:\\Users\\oussa\\OneDrive\\Bureau\\tools\\dotnetERP\\AppGateway\\Controllers\\GestionCommandes.cs",
+              "RelativeToolTip": "AppGateway\\Controllers\\GestionCommandes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T06:30:54.437Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

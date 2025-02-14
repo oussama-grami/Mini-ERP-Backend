@@ -1,0 +1,149 @@
+[
+  {
+    "ContainingType": "GestionClients.Controllers.ClientController",
+    "Method": "AjouterClient",
+    "RelativePath": "api/Client/ajouterClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "client",
+        "Type": "Persistence.DTO.GestionClients.ClientIn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionClients.Controllers.ClientController",
+    "Method": "ConsulterClient",
+    "RelativePath": "api/Client/consulterClient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionClients.Controllers.ClientController",
+    "Method": "EvaluerClient",
+    "RelativePath": "api/Client/evaluerClient",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "note",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionClients.Controllers.ClientController",
+    "Method": "FiltrerClients",
+    "RelativePath": "api/Client/FiltrerClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nom",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estRestreint",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "note",
+        "Type": "System.Nullable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "adresse",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionClients.Controllers.ClientController",
+    "Method": "ListerClients",
+    "RelativePath": "api/Client/listerClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionClients.Controllers.ClientController",
+    "Method": "ModifierClient",
+    "RelativePath": "api/Client/modifierClient",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "client",
+        "Type": "Persistence.DTO.GestionClients.ClientIn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionClients.Controllers.ClientController",
+    "Method": "RestaurerClient",
+    "RelativePath": "api/Client/RestaurerClient/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionClients.Controllers.ClientController",
+    "Method": "RestreindreClient",
+    "RelativePath": "api/Client/RestreindreClient/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

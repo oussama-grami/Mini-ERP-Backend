@@ -1,0 +1,952 @@
+[
+  {
+    "ContainingType": "AppGateway.Controllers.GestionCommandes",
+    "Method": "ListerCommandes",
+    "RelativePath": "api/Commandes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionCommandes",
+    "Method": "GetCommande",
+    "RelativePath": "api/Commandes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCommande.DTOs.CommandeResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionCommandes",
+    "Method": "AjouterArticle",
+    "RelativePath": "api/Commandes/{idCommande}/AjouterArticle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCommande",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "articleCommandeRequestDto",
+        "Type": "GestionCommande.DTOs.ArticleCommandeRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCommande.DTOs.CommandeResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionCommandes",
+    "Method": "AnnulerCommande",
+    "RelativePath": "api/Commandes/{idCommande}/AnnulerCommande",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCommande",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCommande.DTOs.CommandeResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionCommandes",
+    "Method": "ModifierClient",
+    "RelativePath": "api/Commandes/{idCommande}/ModifierClient",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCommande",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commandeRequestDto",
+        "Type": "GestionCommande.DTOs.CommandeRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCommande.DTOs.CommandeResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionCommandes",
+    "Method": "RetirerArticle",
+    "RelativePath": "api/Commandes/{idCommande}/RetirerArticle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCommande",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "articleCommandeRequestDto",
+        "Type": "GestionCommande.DTOs.ArticleCommandeRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCommande.DTOs.CommandeResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionCommandes",
+    "Method": "ValiderCommande",
+    "RelativePath": "api/Commandes/{idCommande}/ValiderCommande",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCommande",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCommande.DTOs.CommandeResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionCommandes",
+    "Method": "CreerCommande",
+    "RelativePath": "api/Commandes/nouvelleCommande",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commandeDto",
+        "Type": "GestionCommande.DTOs.CommandeRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCommande.DTOs.CommandeResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "ConsulterEcheance",
+    "RelativePath": "api/Facturation/echeances/{echeanceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "echeanceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "ModifierEcheance",
+    "RelativePath": "api/Facturation/echeances/{echeanceId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "echeanceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateEcheanceDTO",
+        "Type": "Persistence.DTO.Facturation.UpdateEcheanceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "SupprimerEcheance",
+    "RelativePath": "api/Facturation/echeances/{echeanceId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "echeanceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "PayerEcheance",
+    "RelativePath": "api/Facturation/echeances/{echeanceId}/payer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "echeanceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "ListerFactures",
+    "RelativePath": "api/Facturation/factures",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "CreerFacture",
+    "RelativePath": "api/Facturation/factures",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "creerFactureDTO",
+        "Type": "Persistence.DTO.Facturation.CreerFactureDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "AnnulerFacture",
+    "RelativePath": "api/Facturation/factures/{factureId}/annuler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factureId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "AjouterEcheance",
+    "RelativePath": "api/Facturation/factures/{factureId}/echeance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factureId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "creerEcheanceDTO",
+        "Type": "Persistence.DTO.Facturation.CreerEcheanceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "ConsulterEcheances",
+    "RelativePath": "api/Facturation/factures/{factureId}/echeances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factureId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "EnvoyerFactureParEmail",
+    "RelativePath": "api/Facturation/factures/{factureId}/envoyer-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factureId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "GenererFacturePdf",
+    "RelativePath": "api/Facturation/factures/{factureId}/pdf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factureId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "ConsulterFacture",
+    "RelativePath": "api/Facturation/factures/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "ModifierFacture",
+    "RelativePath": "api/Facturation/factures/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateFactureDTO",
+        "Type": "Persistence.DTO.Facturation.UpdateFactureDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.FacturationController",
+    "Method": "SupprimerFacture",
+    "RelativePath": "api/Facturation/factures/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "AjouterClient",
+    "RelativePath": "api/GestionClients/ajouterClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "client",
+        "Type": "Persistence.DTO.GestionClients.ClientIn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "ConsulterClient",
+    "RelativePath": "api/GestionClients/consulterClient/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "EvaluerClient",
+    "RelativePath": "api/GestionClients/evaluerClient/{id}/{note}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "note",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "FiltrerClients",
+    "RelativePath": "api/GestionClients/FiltrerClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nom",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estRestreint",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "note",
+        "Type": "System.Nullable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "adresse",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "ListerClients",
+    "RelativePath": "api/GestionClients/listerClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "ModifierClient",
+    "RelativePath": "api/GestionClients/modifierClient/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "client",
+        "Type": "Persistence.DTO.GestionClients.ClientIn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "RestaurerClient",
+    "RelativePath": "api/GestionClients/RestaurerClient/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "RestreindreClient",
+    "RelativePath": "api/GestionClients/RestreindreClient/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionClients",
+    "Method": "Tester",
+    "RelativePath": "api/GestionClients/tester",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "AjouterProduit",
+    "RelativePath": "api/GestionStock/ajouterProduit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GestionStock.DTO.AjouterProduitRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "AjouterStock",
+    "RelativePath": "api/GestionStock/ajouterQuantiteStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GestionStock.DTO.ArticleExpedierMarchandisesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "AnnulerReservationCommande",
+    "RelativePath": "api/GestionStock/annulerReservationCommande/{commandeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commandeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "ConsulterProduit",
+    "RelativePath": "api/GestionStock/consulterProduit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "ConsulterStock",
+    "RelativePath": "api/GestionStock/consulterStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "ExpedierMarchandises",
+    "RelativePath": "api/GestionStock/expedierMarchandises",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CommandeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "ModifierProduit",
+    "RelativePath": "api/GestionStock/modifierProduit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GestionStock.DTO.ProduitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "ReserverCommande",
+    "RelativePath": "api/GestionStock/reserverCommande",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GestionStock.DTO.ReserverCommandeRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.GestionStock",
+    "Method": "SupprimerProduit",
+    "RelativePath": "api/GestionStock/supprimerProduit",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produitId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "Register",
+    "RelativePath": "api/Identity/addEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registration",
+        "Type": "Microsoft.AspNetCore.Identity.Data.RegisterRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "InputRole",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Identity/confirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "changedEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "ExternalLogin",
+    "RelativePath": "api/Identity/ExternalLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "externalAuth",
+        "Type": "AppGateway.Services.JwtHandler\u002BExternalAuthDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Identity/forgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetRequest",
+        "Type": "Microsoft.AspNetCore.Identity.Data.ForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "Login",
+    "RelativePath": "api/Identity/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Microsoft.AspNetCore.Identity.Data.LoginRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "useCookies",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "useSessionCookies",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "Logout",
+    "RelativePath": "api/Identity/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "ManageTwoFactor",
+    "RelativePath": "api/Identity/manage/2fa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tfaRequest",
+        "Type": "Microsoft.AspNetCore.Identity.Data.TwoFactorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "GetUserInfo",
+    "RelativePath": "api/Identity/manage/info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "UpdateUserInfo",
+    "RelativePath": "api/Identity/manage/info",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "infoRequest",
+        "Type": "Microsoft.AspNetCore.Identity.Data.InfoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "Refresh",
+    "RelativePath": "api/Identity/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshRequest",
+        "Type": "Microsoft.AspNetCore.Identity.Data.RefreshRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "ResendConfirmationEmail",
+    "RelativePath": "api/Identity/resendConfirmationEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resendRequest",
+        "Type": "Microsoft.AspNetCore.Identity.Data.ResendConfirmationEmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppGateway.Controllers.IdentityController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Identity/resetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetRequest",
+        "Type": "Microsoft.AspNetCore.Identity.Data.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.TwoFactorAuthController",
+    "Method": "Enable2FA",
+    "RelativePath": "api/TwoFactorAuth/enable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
