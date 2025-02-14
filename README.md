@@ -2,7 +2,7 @@
 Description
 Mini ERP Backend est une application back-end développée en .NET qui centralise la gestion des ressources d'une entreprise. Ce système modulaire permet d'assurer différentes fonctions essentielles telles que la gestion des clients, des commandes, de la facturation et du stock.
 
-🚀 Fonctionnalités principales
+🚀 Fonctionnalités principales:
 🔹 Gestion des clients : Création, modification et suivi des informations clients.
 🔹 Gestion des commandes : Suivi des commandes, état de traitement et validation.
 🔹 Facturation : Génération et suivi des factures.
