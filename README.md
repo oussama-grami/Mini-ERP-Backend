@@ -26,9 +26,11 @@ SQLite (ou autre SGBD)
 ### -1- Cloner le projet   
     git clone https://github.com/oussama-grami/Mini-ERP-Backend.git
     cd Mini-ERP-Backend
-    
-### -2-Configurer la base de données  
-Modifier la chaîne de connexion dans appsettings.json.  
-Appliquer les migrations si nécessaire   
-    ```dotnet ef database update ```
+### -2- Configurer la base de données   
+    dotnet ef update database
+### -3- Lancer l'application 
+    dotnet run --project AppGateway
+
+## 📜 Licence
+Ce projet est sous licence MIT.
     
