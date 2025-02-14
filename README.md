@@ -35,4 +35,7 @@ SQLite (ou autre SGBD)
 Ce projet est sous licence MIT.
 
 ## Developers:
-    #### Oussema Guerami
+   #### Oussema Guerami
+   #### Mohammed Aziz Dhouibi
+   #### Rayen Chemlali
+   #### Khalil Ghimaji
