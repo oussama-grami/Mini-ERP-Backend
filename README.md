@@ -9,21 +9,20 @@ Mini ERP Backend est une application back-end développée en .NET qui centralis
 🔹 Gestion du stock : Suivi des produits, quantités disponibles et réapprovisionnement.  
 🔹 Passerelle d’accès (AppGateway) : Point central pour les communications entre les différents modules.  
 
-🏗️ Architecture du projet
-📂 AppGateway/ - Interface API centralisant les requêtes vers les autres modules.
-📂 ERP/ - Cœur de l'application contenant les règles métiers principales.
-📂 GestionClients/ - Module de gestion des clients et de leur historique d'achats.
-📂 GestionCommande/ - Gestion des commandes et de leur traitement.
-📂 Facturation/ - Gestion des factures et paiements.
-📂 GestionStock/ - Suivi des stocks et gestion des fournisseurs.
-📂 Persistence/ - Gestion de la base de données et des entités.
+🏗️ Architecture du projet  
+📂 AppGateway/ - Interface API centralisant les requêtes vers les autres modules.  
+📂 ERP/ - Cœur de l'application contenant les règles métiers principales.  
+📂 GestionClients/ - Module de gestion des clients et de leur historique d'achats.  
+📂 GestionCommande/ - Gestion des commandes et de leur traitement.  
+📂 Facturation/ - Gestion des factures et paiements.  
+📂 GestionStock/ - Suivi des stocks et gestion des fournisseurs.  
+📂 Persistence/ - Gestion de la base de données et des entités.  
 
-🛠️ Technologies utilisées
-.NET Core
-Entity Framework (ORM)
-SQL Server (ou autre SGBD)
-REST API
-📦 Installation et utilisation
-## -1- Cloner le projet 
+🛠️ Technologies utilisées  
+.NET Core  
+Entity Framework (ORM)  
+SQLite (ou autre SGBD)   
+## 📦 Installation et utilisation    
+### -1- Cloner le projet   
     git clone https://github.com/oussama-grami/Mini-ERP-Backend.git
     cd Mini-ERP-Backend
