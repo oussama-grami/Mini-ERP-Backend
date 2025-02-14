@@ -33,4 +33,6 @@ SQLite (ou autre SGBD)
 
 ## 📜 Licence
 Ce projet est sous licence MIT.
-    
+
+## Developers:
+    #### Oussema Guerami
