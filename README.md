@@ -1,16 +1,21 @@
-# Mini-ERP-Backend
-📋 Description
+# 🏢 Mini-ERP-Backend
 
-Mini ERP Backend est une application back-end développée en .NET qui centralise la gestion des ressources d'une entreprise. Ce système modulaire permet d'assurer différentes fonctions essentielles telles que la gestion des clients, des commandes, de la facturation et du stock.
+## 📋 Description  
+**Mini ERP Backend** is a modular back-end application developed in .NET. It centralizes the management of a company's core resources such as clients, orders, invoices, and inventory. The system is designed with scalability and maintainability in mind, following a clean architecture with separated concerns for each business domain.
 
-🚀 Fonctionnalités principales:  
-🔹 Gestion des clients : Création, modification et suivi des informations clients.  
-🔹 Gestion des commandes : Suivi des commandes, état de traitement et validation.  
-🔹 Facturation : Génération et suivi des factures.  
-🔹 Gestion du stock : Suivi des produits, quantités disponibles et réapprovisionnement.  
-🔹 Passerelle d’accès (AppGateway) : Point central pour les communications entre les différents modules.  
+---
 
-🏗️ Architecture du projet  
+## 🚀 Main Features
+
+- 🔹 **Client Management**: Create, update, and monitor client data.
+- 🔹 **Order Management**: Track orders, their status, and validation.
+- 🔹 **Invoicing**: Generate and manage invoices and payment statuses.
+- 🔹 **Inventory Management**: Track products, stock levels, and restocking.
+- 🔹 **Access Gateway (AppGateway)**: Acts as the central API gateway for all modules.
+
+---
+
+## 🏗️ Project Architecture
 📂 AppGateway/ - Interface API centralisant les requêtes vers les autres modules.  
 📂 ERP/ - Cœur de l'application contenant les règles métiers principales.  
 📂 GestionClients/ - Module de gestion des clients et de leur historique d'achats.  
