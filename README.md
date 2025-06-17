@@ -24,10 +24,24 @@
 📂 GestionStock/ - Suivi des stocks et gestion des fournisseurs.  
 📂 Persistence/ - Gestion de la base de données et des entités.  
 
-🛠️ Technologies utilisées  
-.NET Core  
-Entity Framework (ORM)  
-SQLite (ou autre SGBD)   
+
+---
+
+## 🛠️ Technologies Used
+
+- ✅ [.NET Core](https://dotnet.microsoft.com/)
+- ✅ [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/)
+- ✅ [SQLite](https://www.sqlite.org/index.html) *(or any other RDBMS)*
+
+---
+
+## 📦 Installation & Usage
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/oussama-grami/Mini-ERP-Backend.git
+cd Mini-ERP-Backend
+
 ## 📦 Installation et utilisation    
 ### -1- Cloner le projet   
     git clone https://github.com/oussama-grami/Mini-ERP-Backend.git
