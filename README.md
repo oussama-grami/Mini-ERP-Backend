@@ -16,14 +16,16 @@
 ---
 
 ## 🏗️ Project Architecture
-📂 AppGateway/ - Interface API centralisant les requêtes vers les autres modules.  
-📂 ERP/ - Cœur de l'application contenant les règles métiers principales.  
-📂 GestionClients/ - Module de gestion des clients et de leur historique d'achats.  
-📂 GestionCommande/ - Gestion des commandes et de leur traitement.  
-📂 Facturation/ - Gestion des factures et paiements.  
-📂 GestionStock/ - Suivi des stocks et gestion des fournisseurs.  
-📂 Persistence/ - Gestion de la base de données et des entités.  
 
+| Folder             | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| 📂 `AppGateway/`    | Central API interface that routes requests to all other modules.            |
+| 📂 `ERP/`           | Core of the application containing the main business logic and rules.       |
+| 📂 `GestionClients/`| Manages client data and purchase history.                                   |
+| 📂 `GestionCommande/`| Handles order management and processing.                                  |
+| 📂 `Facturation/`   | Manages invoice creation, tracking, and payments.                           |
+| 📂 `GestionStock/`  | Tracks inventory and manages supplier information.                          |
+| 📂 `Persistence/`   | Database configuration and entity management layer.                         |
 
 ---
 
