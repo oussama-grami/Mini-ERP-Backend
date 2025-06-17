@@ -53,8 +53,8 @@ dotnet ef database update
 ```bash
 dotnet run --project AppGateway
 ```
-## 📜 Licence
-Ce projet est sous licence MIT.
+## 📜 License  
+This project is licensed under the MIT License.
 
 ## 👨‍💻👩‍💻 Developers:
    #### Oussema Guerami
