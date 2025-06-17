@@ -41,16 +41,16 @@
 ```bash
 git clone https://github.com/oussama-grami/Mini-ERP-Backend.git
 cd Mini-ERP-Backend
+```
 
-## 📦 Installation et utilisation    
-### -1- Cloner le projet   
-    git clone https://github.com/oussama-grami/Mini-ERP-Backend.git
-    cd Mini-ERP-Backend
-### -2- Configurer la base de données   
-    dotnet ef update database
-### -3- Lancer l'application 
-    dotnet run --project AppGateway
-
+### 2️⃣ Set up the Database
+```bash 
+dotnet ef database update
+```
+### 3️⃣ Run the Application
+```bash
+dotnet run --project AppGateway
+```
 ## 📜 Licence
 Ce projet est sous licence MIT.
 
